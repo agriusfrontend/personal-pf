@@ -20,30 +20,33 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        <span className="font-medium">Computer Science</span>, I pursued my
+        passion for programming and began my career as a{" "}
+        <span className="font-medium">QA Engineer</span>, which later evolved
+        into <span className="font-medium">full-time development</span>.{" "}
+        <span className="italic">What excites me most about programming</span>{" "}
+        is the problem-solving process—I <span className="underline">love</span>{" "}
+        the moment when a tough challenge finally clicks. My core stack includes{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          Angular, React (Next.js), Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        , with experience in{" "}
+        <span className="font-medium">MySQL, and TypeScript</span>. I am always
+        eager to learn and adapt to new technologies. Currently, I’m seeking a{" "}
+        <span className="font-medium">
+          full-time software developer position
+        </span>{" "}
+        where I can contribute to building impactful solutions.
       </p>
 
-      <p>
+      {/* <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
         video games, watching movies, and playing with my dog. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">history and philosophy</span>. I'm also
         learning how to play the guitar.
-      </p>
+      </p> */}
     </motion.section>
   );
 }

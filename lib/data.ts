@@ -35,73 +35,79 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated in Computer Science",
+    location: "Virtual University of Pakistan",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Completed my degree in Computer Science, which laid the foundation for my career in software development.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Aims Soft, Pakistan",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Worked as a front-end developer contributing to 3+ ERP solutions. Focused on building responsive and high-performance applications using Angular and related technologies.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Lead Front-End Developer",
+    location: "Code Agrius, Pakistan",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Currently leading front-end development for OREIUS ERP. Building scalable modules such as CRM, Approval Hierarchy, and Contract Management using Angular, TypeScript, Tailwind, and .NET Core integration.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "OREIUS ERP",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Contributed to multiple ERP modules including CRM, Approval Hierarchy, and Contract Management. Focused on building scalable, user-friendly, and high-performance solutions.",
+    tags: ["Angular", "TypeScript", "Tailwind", "NgRx", ".NET Core"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Guest House Management System",
+    description:
+      "Developed a booking and reservation system with real-time revenue reporting, billing, and KOT (Kitchen Order Ticket) generation.",
+    tags: ["Angular & React", "TypeScript", "Tailwind"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Inventory Management System",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Built real-time asset tracking and department-wise stock management. Integrated the system with the Guest House Management System for streamlined resource allocation.",
+    tags: ["Angular", "Tailwind"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "School Management System",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Led development of the Exam Module including scheduling, date sheet creation, and grading. Designed report card generation with detailed calculations.",
+    tags: ["Angular", "TypeScript"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
-
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Angular",
   "React",
   "Next.js",
+  "Tailwind CSS",
+  "RxJS",
+  "NgRx",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
+  "Express.js",
+  "PHP",
+  "MySQL",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Git",
+  "Firebase",
+  "Chart.js",
+  "ApexCharts",
 ] as const;
