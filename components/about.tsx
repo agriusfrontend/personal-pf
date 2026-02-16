@@ -19,24 +19,30 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Computer Science</span>, I pursued my
-        passion for programming and began my career as a{" "}
-        <span className="font-medium">QA Engineer</span>, which later evolved
-        into <span className="font-medium">full-time development</span>.{" "}
+        After earning my degree in{" "}
+        <span className="font-medium">Computer Science</span>, I began my
+        journey as a frontend developer working on large-scale{" "}
+        <span className="font-medium">ERP systems</span> and gradually grew into
+        a <span className="font-medium">Full-Stack JavaScript Engineer</span>.{" "}
         <span className="italic">What excites me most about programming</span>{" "}
-        is the problem-solving process—I <span className="underline">love</span>{" "}
-        the moment when a tough challenge finally clicks. My core stack includes{" "}
+        is solving complex business problems and transforming them into
+        scalable, high-performance solutions. I’ve led development of enterprise
+        modules serving 200+ users, migrated legacy Angular applications (13 →
+        19), and built real-time applications from scratch. My core stack
+        includes{" "}
         <span className="font-medium">
-          Angular, React (Next.js), Node.js, and MongoDB
+          Angular 17/19, React (Next.js 14), Node.js/Express, and MongoDB
         </span>
-        , with experience in{" "}
-        <span className="font-medium">MySQL, and TypeScript</span>. I am always
-        eager to learn and adapt to new technologies. Currently, I’m seeking a{" "}
+        , with strong experience in{" "}
         <span className="font-medium">
-          full-time software developer position
+          TypeScript, MySQL, and modern UI systems
+        </span>
+        . I continuously focus on performance optimization, reusable
+        architecture, and clean code practices. Currently, I’m seeking a{" "}
+        <span className="font-medium">
+          challenging full-time software engineering role
         </span>{" "}
-        where I can contribute to building impactful solutions.
+        where I can build impactful, scalable products.
       </p>
 
       {/* <p>
